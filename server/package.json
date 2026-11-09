@@ -1,0 +1,17 @@
+{
+  "name": "football-stats-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "seed:demo": "node scripts/seed-demo.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
